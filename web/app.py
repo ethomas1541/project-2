@@ -9,7 +9,7 @@ PORT = 0
 DEBUG = False
 
 parser = ConfigParser()
-parser.read("../credentials.ini")
+parser.read("credentials.ini")
 
 try:
     PORT = parser["SERVER"]["PORT"]
